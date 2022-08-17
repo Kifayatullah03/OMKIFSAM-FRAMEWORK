@@ -7,7 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features/samtaxFramework.feature",
-        glue = "Steps"
+        glue = "Steps",
+
+        monochrome = true
 
 
 
