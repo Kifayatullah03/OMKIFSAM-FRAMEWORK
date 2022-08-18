@@ -1,6 +1,6 @@
 Feature:
   Scenario:
-    Given user navigate to url http://automationpractice.com/index.php
+    Given user navigate to url automationPractice application
     When user click on sign in link button
     And user enter email address in 'Create and account ' section
     And user click on create Account button
