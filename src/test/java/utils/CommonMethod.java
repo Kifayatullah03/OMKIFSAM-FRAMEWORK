@@ -109,7 +109,7 @@ public class CommonMethod extends PageInitialization {
      * @param element
      */
   public static void jsClick(WebElement element){
-     getJsExecutor().executeScript("arguments[0].click",element);
+     getJsExecutor().executeScript("arguments[0].click()",element);
   }
 
     /**
